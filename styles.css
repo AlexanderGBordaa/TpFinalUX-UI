@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica', Helvetica, sans-serif; 
+    line-height: 1.6;
+    background: url('home.jpg') no-repeat center center/cover; 
+    color: #fff; 
+    background-attachment: fixed; 
+}
+
+
+header {
+    background: rgba(0, 0, 0, 0.7); 
+    color: #fff;
+    padding: 10px 0;
+    position: sticky; 
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffd700;
+    margin-left: 20px;
+    font-weight: bold;
+    transition: color 0.5s;
+}
+
+.nav-links a:hover {
+    color: #ffd700;
+}
+
+#home-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 150px;
+    color: #ffffff;
+}
+
+#home-main h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+#home-main p {
+    font-size: 1.2rem;
+}
+
+section {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff; 
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+habilidades-section p {
+    list-style: none;
+    padding: 0;
+}
+
+habilidades-section li {
+    margin: 5px 0;
+}
+
+#project {
+    display: inline-block;
+    width: 45%;
+    margin: 2.5%;
+    text-align: left;
+    background: rgba(0, 0, 0, 0.7); 
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.project-image {
+    width: 100%; 
+    max-width: 900px;
+    height: auto; 
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto 10px; 
+}
+
+.project h3 {
+    margin: 10px 0;
+}
+
+.project-link {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #333;
+    background: #ffd700;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.project-link:hover {
+    background: #fff;
+}
+
+
+.contact-icons a {
+    display: inline-block;
+    margin: 10px 10px;
+    text-decoration: none;
+    color: #ffd700;
+    font-size: 1.2rem;
+}
+
+.contact-icons a:hover {
+    color: #ffffffef;
+}
+
+.footer {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    padding: 10px 0;
+}
+
